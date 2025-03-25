@@ -16,6 +16,7 @@ class STHKRecipe(BasicNewsRecipe):
     remove_empty_feeds = True
     use_embedded_content = False
     remove_attributes = ['style', 'height', 'width']
+    compress_news_images = True
 
     extra_css = '''
         img {display:block; margin:0 auto;}
